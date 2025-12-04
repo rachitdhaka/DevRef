@@ -8,11 +8,11 @@ import { Container } from "./components/Container";
 
 export default function Home() {
   const { resolvedTheme } = useTheme();
-  const [color, setColor] = useState("rgb(64 64 64)");
+  const [color, setColor] = useState("rgb(38 38 38)");
 
   useEffect(() => {
     if (resolvedTheme === "dark") {
-      setColor("rgb(64 64 64)");
+      setColor("rgb(38 38 38)");
     } else {
       setColor("rgb(232, 225, 225)");
     }
