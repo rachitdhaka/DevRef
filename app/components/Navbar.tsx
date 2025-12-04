@@ -6,7 +6,7 @@ export const Navbar = () => {
     const navlinks = [
         { name: "Home", href: "/" },
         { name: "Components", href: "/Main" },
-        { name: "Blogs", href: "/projects" }
+        { name: "Blogs", href: "/Blogs" }
        
     ]
   return (
