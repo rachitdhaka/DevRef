@@ -43,9 +43,18 @@ export const GridSection = () => {
             <span className="text-sm text-neutral-600">Inspired By : </span> <Link href="https://x.com/mannupaaji">Manu Arora</Link>
           </div>
         </div>
-        <div className="w-full h-full flex justify-center items-center  rounded-2xl overflow-hidden border dark:border-neutral-800 border-neutral-400 ">
-          <p>Components Coming Soon</p>
+        <div className="w-full h-full  rounded-2xl overflow-hidden border dark:border-neutral-800 border-neutral-400  ">
+          <div>
+            <video className="w-full h-full aspect-square" muted loop autoPlay>
+              <source src="/Video/card2.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div className="px-2 py-4 ">
+            <p className="ttext-lg text-neutral-900 dark:text-neutral-300 ">Card Component </p>
+            {/* <span className="text-sm text-neutral-600">Inspired By : </span> <Link href="https://x.com/mannupaaji">Manu Arora</Link> */}
+          </div>
         </div>
+
       </div>
     </section>
   );

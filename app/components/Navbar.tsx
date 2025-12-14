@@ -4,7 +4,7 @@ import { ModeToggle } from "./ModeToggle"
 export const Navbar = () => {
 
     const navlinks = [
-        { name: "Home", href: "/" },
+        
         { name: "Components", href: "/Main" },
         { name: "Blogs", href: "/Blogs" }
        
